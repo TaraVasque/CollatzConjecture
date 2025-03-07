@@ -10,14 +10,14 @@ If the number is odd, multiply it by 3 and add 1.
 Repeat the process until the number reaches 1.
 For example, starting with the number 6:
 
--6 (even) → 3
--3 (odd) → 10
--10 (even) → 5
--5 (odd) → 16
--16 (even) → 8
--8 (even) → 4
--4 (even) → 2
--2 (even) → 1
+# 6 (even) → 3
+# 3 (odd) → 10
+# 10 (even) → 5
+# 5 (odd) → 16
+# 16 (even) → 8
+# 8 (even) → 4
+# 4 (even) → 2
+# 2 (even) → 1
 The sequence for 6 ends at 1.
 
 ## How to Use the Collatz Conjecture Visualizer
