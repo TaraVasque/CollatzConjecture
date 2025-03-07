@@ -11,7 +11,7 @@ Repeat the process until the number reaches 1.
 For example, starting with the number 6:
 
    6 (even) → 3
-   3 (odd) → 10
+         3 (odd) → 10
    10 (even) → 5
    5 (odd) → 16
    16 (even) → 8
