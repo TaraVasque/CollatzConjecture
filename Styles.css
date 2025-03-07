@@ -1,0 +1,105 @@
+/* General body styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background: linear-gradient(45deg, #6a1b9a, #d81b60); /* Purple to Dark Pink/Rose gradient */
+    background-size: 400% 400%;
+    animation: gradientAnimation 15s ease infinite;
+}
+
+/* Keyframes for background animation */
+@keyframes gradientAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+/* Container styling */
+.container {
+    background-color: rgba(44, 44, 44, 0.8);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    width: 90%;
+    max-width: 500px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+/* Styling for headings */
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+/* Input and button styles */
+input[type="number"],
+button {
+    background-color: #333;
+    color: #f5f5f5;
+    border: 1px solid #555;
+    padding: 12px 20px;
+    margin-top: 15px;
+    font-size: 1rem;
+    border-radius: 5px;
+    width: 100%;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+/* Hover effects for buttons */
+input[type="number"]:focus,
+button:hover {
+    background-color: #444;
+    border-color: #777;
+}
+
+/* Canvas styling */
+canvas {
+    margin-top: 30px;
+    border-radius: 10px;
+    background-color: #333;
+    width: 100%;
+    max-height: 400px;
+}
+
+/* Action buttons container */
+.action-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+    width: 100%;
+}
+
+/* Upload button container */
+.upload-button-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+/* Responsive layout for smaller screens */
+@media (max-width: 600px) {
+    .action-buttons {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    canvas {
+        width: 100%;
+        max-width: 100%;
+    }
+}
