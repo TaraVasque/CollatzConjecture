@@ -9,7 +9,7 @@ If the number is even, divide it by 2.
 If the number is odd, multiply it by 3 and add 1.
 Repeat the process until the number reaches 1.
 For example, starting with the number 6:
-``
+
 6 (even) → 3
 3 (odd) → 10
 10 (even) → 5
@@ -19,7 +19,7 @@ For example, starting with the number 6:
 4 (even) → 2
 2 (even) → 1
 The sequence for 6 ends at 1.
-``
+
 ## How to Use the Collatz Conjecture Visualizer
 # 1. Enter a Starting Number
 Type a positive integer in the "Enter start number" field. This is the number that will begin the Collatz sequence.
