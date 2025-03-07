@@ -1,5 +1,6 @@
 ## Collatz Conjecture Visualizer
-Welcome to the Collatz Conjecture Visualizer! This tool allows you to explore the famous Collatz sequence in a fun and interactive way. You can compute the sequence for any positive integer, visualize it as a chart, and download or upload the sequence data in JSON format.
+Welcome to the Collatz Conjecture Visualizer! This tool allows you to explore the famous Collatz sequence in a fun and interactive way. 
+You can compute the sequence for any positive integer, visualize it as a chart, and download or upload the sequence data in JSON format.
 
 ## What is the Collatz Conjecture?
 The Collatz Conjecture is a mathematical problem that involves taking any positive integer and applying the following rules:
@@ -38,27 +39,30 @@ Other metadata like processing time and average speed (hardcoded for simplicity)
 # 5. Upload a Previously Saved JSON File
 If you have a previously saved JSON file containing a Collatz sequence, you can upload it by clicking the "Upload JSON" button.
 Once the file is uploaded, the tool will read the data and display the sequence and chart again based on the uploaded file.
-Features
+# Features
 Interactive Sequence Calculation: Enter any positive number to calculate its Collatz sequence and see it visualized in a dynamic chart.
 Chart Visualization: The tool uses Chart.js to display a line graph of how the number evolves step by step.
 Download/Upload JSON: Save the Collatz sequence as a JSON file or load an existing sequence for review or sharing.
 Smooth and Responsive Design: The user interface is designed to be visually appealing with an animated gradient background, and it adapts to both desktop and mobile devices.
-Technologies Used
+# Technologies Used
 HTML5 – For the structure and layout of the webpage.
 CSS3 – For styling the page with animations, responsive design, and modern effects.
 JavaScript – For the functionality of calculating the Collatz sequence, handling user input, and generating the chart.
 Chart.js – For rendering the line chart that visualizes the sequence.
 FileSaver.js – For downloading the sequence data as a JSON file.
-How to Run Locally
-Clone the repository:
+
+## How to Run Locally
+# Clone the repository:
 
 ## bash
-Copy`
+# Copy
+`
 git clone https://github.com/yourusername/collatz-visualizer.git
 Navigate to the project folder:
 `
 ## bash
-Copy`
+# Copy
+`
 cd collatz-visualizer
 Open the index.html file in your browser: You can open the index.html file directly in any modern browser to use the tool.
 `
