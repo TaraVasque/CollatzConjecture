@@ -62,3 +62,7 @@ This project is open source and available under the MIT License.
 ## Acknowledgements
 Chart.js: For making the data visualization easy and beautiful.
 FileSaver.js: For allowing us to save the Collatz data as a downloadable JSON file.
+
+## inspirations
+i was inspired to make thsi after seeing the colatz conjecture and wanting to make something origionally in Batch script to automate the colatz conjecture, the more i went into it i realized that batch wasnt going to cut it in the long run so i made this as a more beutified and veisually appealing version of that.
+`if anyone wants to suggest a conjecture or math problem to visualize like this i would be more than happy to make it`
